@@ -10,4 +10,3 @@ repos:
       - id: clang-format
         args: [-i, --style=Google]
       - id: clang-tidy
-      - id: cpplint

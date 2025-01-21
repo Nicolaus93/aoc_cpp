@@ -24,7 +24,6 @@ int solve(std::vector<int> nums, int noun, int verb, bool debug = false) {
       default:
         throw std::runtime_error("Unsupported operation in nums at index: " +
                                  std::to_string(idx));
-        ;
     }
     idx += 4;
     if (debug) {
